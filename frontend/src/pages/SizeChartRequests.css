@@ -1,0 +1,105 @@
+.size-chart-requests {
+    padding: 20px;
+}
+
+.size-chart-requests h2 {
+    text-align: center;
+}
+
+.size-chart-requests form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.size-chart-requests input {
+    margin: 5px;
+    padding: 10px;
+    width: 200px;
+}
+
+.size-chart-requests button {
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.size-chart-requests table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.size-chart-requests th, .size-chart-requests td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.size-chart-requests th {
+    background-color: #f2f2f2;
+}
+
+.size-chart-requests button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.size-chart-requests button:hover {
+    background-color: #45a049;
+}
+
+.size-chart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.size-chart-table th,
+.size-chart-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.size-chart-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.size-chart-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.size-chart-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.edit-button, .delete-button {
+    background-color: #4CAF50; /* Green for Edit */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+}
+
+.delete-button {
+    background-color: #f44336; /* Red for Delete */
+}
+
+.edit-button:hover {
+    background-color: #45a049;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}
+

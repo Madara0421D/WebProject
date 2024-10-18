@@ -1,0 +1,142 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9f7f6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Form styles */
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+input, select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color:#45a049;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color:#d32f2f;
+}
+
+.cancel-button {
+    background-color: #6c757d;
+}
+
+.cancel-button:hover {
+    background-color: #5a6268;
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li button {
+    margin-left: 10px;
+}
+
+/* Media queries */
+@media (max-width: 600px) {
+    input, select, button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    ul li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul li button {
+        margin: 5px 0 0 0;
+    }
+}
+
+.material-requests-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.material-requests-table th,
+.material-requests-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.material-requests-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.material-requests-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.material-requests-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.update-button, .delete-button {
+    background-color: #4CAF50; /* Green for Update */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+}
+
+.delete-button {
+    background-color: #f44336; /* Red for Delete */
+}
+
+.update-button:hover {
+    background-color: #45a049;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}
